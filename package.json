@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ArthMcFly/Trabalho_tcc#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "socket.io": "^4.6.0"
