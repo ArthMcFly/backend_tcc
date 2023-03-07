@@ -1,0 +1,28 @@
+Usuarios 
+Curtidas
+senha
+seguidores
+seguindo
+vizualização
+Denuncia
+Favoritos
+Mensagens
+Rascunhos
+Materias
+cadastros
+verificados
+compartilhar
+
+
+Geografia - #FF6100
+Biologia - #00BF63
+Portugues - #00A1FF
+Matematica - #FF3131
+Artes - #FF66C4
+ED fisica - #8C52FF
+Quimica - #4DD1B5
+Outros - #A6A6A6
+Linguas estrangeiras -#F6C400 
+História - #D47749
+Física - #D38FFD
+
