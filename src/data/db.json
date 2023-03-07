@@ -1,63 +1,245 @@
 {
-    "cidades":[{
-        "id": 1,
-        "cid_nome": "Sernovodsk",
-        "cid_estado": "SP",
-        "created_at": "2022-09-09T23:00:23Z",
-        "updated_at": null
-      }, {
-        "id": 2,
-        "cid_nome": "Soubré",
-        "cid_estado": "RJ",
-        "created_at": "2022-05-19T01:36:56Z",
-        "updated_at": null
-      }, {
-        "id": 3,
-        "cid_nome": "Ondangwa",
-        "cid_estado": "PR",
-        "created_at": "2022-12-10T12:24:08Z",
-        "updated_at": null
-      }, {
-        "id": 4,
-        "cid_nome": "Gandong",
-        "cid_estado": "RS",
-        "created_at": "2022-03-24T01:01:51Z",
-        "updated_at": "2023-01-18T19:51:21Z"
-      }, {
-        "id": 5,
-        "cid_nome": "Ostankinskiy",
-        "cid_estado": "TO",
-        "created_at": "2022-04-06T19:58:15Z",
-        "updated_at": "2023-01-13T19:20:26Z"
-      }, {
-        "id": 6,
-        "cid_nome": "Calape",
-        "cid_estado": "CE",
-        "created_at": "2022-09-15T13:43:35Z",
-        "updated_at": "2023-01-28T14:21:00Z"
-      }, {
-        "id": 7,
-        "cid_nome": "Tsákoi",
-        "cid_estado": "MG",
-        "created_at": "2023-01-13T14:22:26Z",
-        "updated_at": null
-      }, {
-        "id": 8,
-        "cid_nome": "Eman",
-        "cid_estado": "MS",
-        "created_at": "2022-02-11T10:19:02Z",
-        "updated_at": "2022-06-09T20:43:03Z"
-      }, {
-        "id": 9,
-        "cid_nome": "Libertad",
-        "cid_estado": "SP",
-        "created_at": "2022-05-16T12:35:58Z",
-        "updated_at": "2023-01-21T15:12:59Z"
-      }, {
-        "id": 10,
-        "cid_nome": "Casais de Revelhos",
-        "cid_estado": "RJ",
-        "created_at": "2022-07-25T20:40:05Z",
-        "updated_at": "2022-08-08T23:09:19Z"
-      }]
-  }
+    "usuarios":[
+        {
+            "usu_id":1,
+            "usu_nome":"Reynard",
+            "usu_email":"rjellicorse0@washington.edu",
+            "usu_senha":"honNtOUd",
+            "usu_arroba":"rmart0",
+            "usu_bio":"bio",
+            "usu_dataentrada":"10/16/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":2,
+            "usu_nome":"Nicky",
+            "usu_email":"nfinnis1@bigcartel.com",
+            "usu_senha":"SCS7GVIB",
+            "usu_arroba":"nstelfax1",
+            "usu_bio":"bio",
+            "usu_dataentrada":"10/27/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {   "usu_id":3,
+            "usu_nome":"Charmaine",
+            "usu_email":"cjasik2@instagram.com",
+            "usu_senha":"wfUzWxwaFy",
+            "usu_arroba":"cbedbury2",
+            "usu_bio":"bio",
+            "usu_dataentrada":"6/2/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":4,
+            "usu_nome":"Agata",
+            "usu_email":"ameaton3@unesco.org",
+            "usu_senha":"rYowV4DA",
+            "usu_arroba":"abignold3",
+            "usu_bio":"bio",
+            "usu_dataentrada":"11/13/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":5,
+            "usu_nome":"Stormy",
+            "usu_email":"sshotter4@reference.com",
+            "usu_senha":"qkNnOvw",
+            "usu_arroba":"sbysshe4",
+            "usu_bio":"bio",
+            "usu_dataentrada":"2/13/2023",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":6,
+            "usu_nome":"Teressa",
+            "usu_email":"tbeamont5@howstuffworks.com",
+            "usu_senha":"jeSD3LlK",
+            "usu_arroba":"tjesteco5",
+            "usu_bio":"bio",
+            "usu_dataentrada":"10/11/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":7,
+            "usu_nome":"Kimmi",
+            "usu_email":"kferreli6@wikimedia.org",
+            "usu_senha":"pT0bV9V",
+            "usu_arroba":"kseeds6",
+            "usu_bio":"bio",
+            "usu_dataentrada":"1/18/2023",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":8,"usu_nome":"Adelind",
+            "usu_email":"aaffron7@icio.us",
+            "usu_senha":"4rN3QK",
+            "usu_arroba":"asouch7",
+            "usu_bio":"bio",
+            "usu_dataentrada":"9/10/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":9,
+            "usu_nome":"Booth",
+            "usu_email":"bmithan8@arizona.edu",
+            "usu_senha":"afOljzJ",
+            "usu_arroba":"bmcgruar8",
+            "usu_bio":"bio",
+            "usu_dataentrada":"9/28/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        },
+        {
+            "usu_id":10,
+            "usu_nome":"Xenia",
+            "usu_email":"xagney9@livejournal.com",
+            "usu_senha":"OStj97kGY3",
+            "usu_arroba":"xcastillo9",
+            "usu_bio":"bio",
+            "usu_dataentrada":"7/1/2022",
+            "usu_cadastro":"cadastro",
+            "usu_login":"login"
+        }
+               ],
+
+    "materias":[
+        {
+            "mat_id":1,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":2,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":3,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":4,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":5,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":6,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":7,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":8,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":9,
+            "mat_materia":"matematica"
+        },
+        {
+            "mat_id":10,
+            "mat_materia":"matematica"
+        }
+                ],
+    "postagens":[
+
+        {"pos_id":1,
+        "pos_criacao":"4/5/2022",
+        "pos_texto":"postagem",
+        "pos_curtidas":947,
+        "pos_reposta":1,
+        "pos_textoreposta":"reposta postagem",
+        "pos_curtidaresposta":731
+        },
+        {
+            "pos_id":2,
+            "pos_criacao":"12/17/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":40,
+            "pos_reposta":2,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":445
+        },
+        {
+            "pos_id":3,
+            "pos_criacao":"2/14/2023",
+            "pos_texto":"postagem",
+            "pos_curtidas":458,
+            "pos_reposta":3,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":213
+        },
+        {
+            "pos_id":4,
+            "pos_criacao":"9/16/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":649,
+            "pos_reposta":4,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":516
+        },
+        {
+            "pos_id":5,"pos_criacao":"3/3/2023",
+            "pos_texto":"postagem",
+            "pos_curtidas":978,
+            "pos_reposta":5,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":900
+        },
+        {
+            "pos_id":6,
+            "pos_criacao":"11/22/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":947,
+            "pos_reposta":6,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":769
+        },
+        {
+            "pos_id":7,
+            "pos_criacao":"12/17/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":82,
+            "pos_reposta":7,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":772
+        },
+        {
+            "pos_id":8,
+            "pos_criacao":"6/18/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":285,
+            "pos_reposta":8,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":794
+        },
+        {
+            "pos_id":9,
+            "pos_criacao":"2/2/2023",
+            "pos_texto":"postagem",
+            "pos_curtidas":430,
+            "pos_reposta":9,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":281
+        },
+        {
+            "pos_id":10,"pos_criacao":"12/6/2022",
+            "pos_texto":"postagem",
+            "pos_curtidas":559,
+            "pos_reposta":10,
+            "pos_textoreposta":"reposta postagem",
+            "pos_curtidaresposta":31
+        }
+    ]
+}
