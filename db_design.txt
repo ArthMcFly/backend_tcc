@@ -1,0 +1,30 @@
+
+Table Usuarios {
+  usu_id int [pk]
+  usu_nomecompleto varchar [not null]
+  usu_email varchar [not null, unique]
+  usu_senha varchar [not null]
+  usu_arroba varchar [not null, unique]
+  usu_bio varchar
+  usu_dataentrada date [not null]
+  usu_cadastro varchar
+  usu_login varchar
+}
+
+Table Materias {
+  mat_id int [pk]
+  mat_materia varchar
+}
+
+Table Postagens {
+  pos_id int [pk]
+  pos_criacao date
+  pos_texto varchar
+  pos_curtidas int
+  pos_resposta int
+  pos_textoresposta varchar
+  pos_curtidasresposta int
+
+}
+ ref: Usuarios.usu_id < Postagens.pos_id
+ ref: Postagens.pos_id - Materias.mat_id
