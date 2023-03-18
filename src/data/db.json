@@ -112,134 +112,155 @@
 
     "materias":[
         {
-            "mat_id":1,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":2,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":3,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":4,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":5,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":6,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":7,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":8,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":9,
-            "mat_materia":"matematica"
-        },
-        {
-            "mat_id":10,
-            "mat_materia":"matematica"
-        }
+			"mat_id":1,
+			"mat_materia":"Matéria",
+			"mat_cor":"#ac8257"
+		},
+		{
+			"mat_id":2,
+			"mat_materia":"Matéria",
+			"mat_cor":"#fea6fd"
+		},
+		{
+			"mat_id":3,
+			"mat_materia":"Matéria",
+			"mat_cor":"#4e7975"
+		},
+		{
+			"mat_id":4,
+			"mat_materia":"Matéria",
+			"mat_cor":"#202326"
+		},
+		{
+			"mat_id":5,
+			"mat_materia":"Matéria",
+			"mat_cor":"#04adf2"
+		},
+		{
+			"mat_id":6,
+			"mat_materia":"Matéria",
+			"mat_cor":"#125152"
+		},
+		{
+			"mat_id":7,
+			"mat_materia":"Matéria",
+			"mat_cor":"#e2ec71"
+		},
+		{
+			"mat_id":8,
+			"mat_materia":"Matéria",
+			"mat_cor":"#99e7d7"
+		},
+		{
+			"mat_id":9,
+			"mat_materia":"Matéria",
+			"mat_cor":"#7786c8"
+		},
+		{
+			"mat_id":10,
+			"mat_materia":"Matéria",
+			"mat_cor":"#7b19d8"
+		}
                 ],
     "postagens":[
-
-        {"pos_id":1,
-        "pos_criacao":"4/5/2022",
-        "pos_texto":"postagem",
-        "pos_curtidas":947,
-        "pos_reposta":1,
-        "pos_textoreposta":"reposta postagem",
-        "pos_curtidaresposta":731
-        },
-        {
-            "pos_id":2,
-            "pos_criacao":"12/17/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":40,
-            "pos_reposta":2,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":445
-        },
-        {
-            "pos_id":3,
-            "pos_criacao":"2/14/2023",
-            "pos_texto":"postagem",
-            "pos_curtidas":458,
-            "pos_reposta":3,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":213
-        },
-        {
-            "pos_id":4,
-            "pos_criacao":"9/16/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":649,
-            "pos_reposta":4,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":516
-        },
-        {
-            "pos_id":5,"pos_criacao":"3/3/2023",
-            "pos_texto":"postagem",
-            "pos_curtidas":978,
-            "pos_reposta":5,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":900
-        },
-        {
-            "pos_id":6,
-            "pos_criacao":"11/22/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":947,
-            "pos_reposta":6,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":769
-        },
-        {
-            "pos_id":7,
-            "pos_criacao":"12/17/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":82,
-            "pos_reposta":7,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":772
-        },
-        {
-            "pos_id":8,
-            "pos_criacao":"6/18/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":285,
-            "pos_reposta":8,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":794
-        },
-        {
-            "pos_id":9,
-            "pos_criacao":"2/2/2023",
-            "pos_texto":"postagem",
-            "pos_curtidas":430,
-            "pos_reposta":9,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":281
-        },
-        {
-            "pos_id":10,"pos_criacao":"12/6/2022",
-            "pos_texto":"postagem",
-            "pos_curtidas":559,
-            "pos_reposta":10,
-            "pos_textoreposta":"reposta postagem",
-            "pos_curtidaresposta":31
-        }
+		{
+			"pos_id":1,
+			"pos_criacao":"4/16/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/227x100.png/5fa2dd/ffffff",
+			"pos_curtidas":939,"pos_reposta":1,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":462
+		},
+		{
+			"pos_id":2,
+			"pos_criacao":"9/28/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/133x100.png/ff4444/ffffff",
+			"pos_curtidas":12,
+			"pos_reposta":2,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":684
+		},
+		{
+			"pos_id":3,
+			"pos_criacao":"4/20/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/159x100.png/ff4444/ffffff",
+			"pos_curtidas":390,
+			"pos_reposta":3,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":825
+		},
+		{
+			"pos_id":4,
+			"pos_criacao":"8/25/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/161x100.png/dddddd/000000",
+			"pos_curtidas":788,
+			"pos_reposta":4,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":572
+		},
+		{
+			"pos_id":5,
+			"pos_criacao":"7/15/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/136x100.png/cc0000/ffffff",
+			"pos_curtidas":959,
+			"pos_reposta":5,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":802
+		},
+		{
+			"pos_id":6,
+			"pos_criacao":"8/20/2022",
+		    "pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/112x100.png/ff4444/ffffff",
+			"pos_curtidas":594,
+			"pos_reposta":6,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":781
+		},
+		{
+			"pos_id":7,
+			"pos_criacao":"12/30/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/185x100.png/5fa2dd/ffffff",
+			"pos_curtidas":388,
+			"pos_reposta":7,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":218
+		},
+		{
+			"pos_id":8,
+			"pos_criacao":"11/22/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/142x100.png/5fa2dd/ffffff",
+			"pos_curtidas":979,
+			"pos_reposta":8,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":929
+		},
+		{
+			"pos_id":9,
+			"pos_criacao":"9/11/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/125x100.png/ff4444/ffffff",
+			"pos_curtidas":18,
+			"pos_reposta":9,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":825
+		},
+		{
+			"pos_id":10,
+			"pos_criacao":"7/23/2022",
+			"pos_texto":"exemplo",
+			"pos_imagem":"http://dummyimage.com/106x100.png/cc0000/ffffff",
+			"pos_curtidas":316,
+			"pos_reposta":10,
+			"pos_textoreposta":"exemplo reposta",
+			"pos_curtidasreposta":789
+		}
     ]
 }

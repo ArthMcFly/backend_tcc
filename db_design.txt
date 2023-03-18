@@ -1,4 +1,3 @@
-
 Table Usuarios {
   usu_id int [pk]
   usu_nomecompleto varchar [not null]
@@ -14,12 +13,14 @@ Table Usuarios {
 Table Materias {
   mat_id int [pk]
   mat_materia varchar
+  mat_cor varchar
 }
 
 Table Postagens {
   pos_id int [pk]
   pos_criacao date
   pos_texto varchar
+  pos_imagem varchar
   pos_curtidas int
   pos_resposta int
   pos_textoresposta varchar
