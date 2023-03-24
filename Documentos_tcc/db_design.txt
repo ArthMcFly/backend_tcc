@@ -1,30 +1,36 @@
 Table Usuarios {
   usu_id int [pk]
-  usu_nomecompleto varchar [not null]
+  usu_nome varchar [not null]
   usu_email varchar [not null, unique]
   usu_senha varchar [not null]
+  usu_fotoperfil varchar
   usu_arroba varchar [not null, unique]
   usu_bio varchar
   usu_dataentrada date [not null]
-  usu_cadastro varchar
-  usu_login varchar
+  created_at datetime
+  updated_at datetime
 }
 
 Table Materias {
   mat_id int [pk]
   mat_materia varchar
   mat_cor varchar
+  created_at datetime
+  updated_at datetime
+
 }
 
 Table Postagens {
   pos_id int [pk]
-  pos_criacao date
   pos_texto varchar
   pos_imagem varchar
   pos_curtidas int
   pos_resposta int
   pos_textoresposta varchar
-  pos_curtidasresposta int
+  pos_curtidasresposta int 
+  created_at datetime
+  updated_at datetime
+
 
 }
  ref: Usuarios.usu_id < Postagens.pos_id
