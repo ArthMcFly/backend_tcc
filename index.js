@@ -1,6 +1,7 @@
 const express = require('express');
+const cors = require ('cors');
 const app = express();
-const port = 3000
+const port = 8080;
 const { server: api } = require("./src/api/index");
 
 app.get('/', (req, res) => {
@@ -8,7 +9,10 @@ app.get('/', (req, res) => {
 });
 
 app.use("/api", api );
+app.use(cors());
+app.use(express.json());
 
 app.listen(port, () => {
-  console.log('listening on *:3000');
+	console.clear();
+	console.log('listening on port:8080');
 });
