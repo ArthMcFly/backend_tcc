@@ -4,9 +4,9 @@ Table Usuarios {
   usu_email varchar [not null, unique]
   usu_senha varchar [not null]
   usu_fotoperfil varchar
+  usu_nivel varchar
   usu_arroba varchar [not null, unique]
   usu_bio varchar
-  usu_dataentrada date [not null]
   created_at datetime
   updated_at datetime
 }
@@ -35,3 +35,4 @@ Table Postagens {
 }
  ref: Usuarios.usu_id < Postagens.pos_id
  ref: Postagens.pos_id - Materias.mat_id
+
