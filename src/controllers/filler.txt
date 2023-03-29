@@ -1,3 +1,0 @@
-Arquivo para não deixar a pasta vazia e posteriormente ser apagada pelo codespaces
-assim que começar a usa-lá apague esse arquivo.
-

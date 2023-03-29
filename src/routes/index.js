@@ -1,6 +1,6 @@
 const { Router } = require("express");
 var http = require("http");
-
+const users = require("../controllers/usuarios/index");
 const routes = new Router();
 
 
@@ -16,5 +16,8 @@ routes.put("/api/*", (req, res) => {
 routes.get("/api/db", (req, res) => {
 	return res.status(404).end(http.STATUS_CODES[404]);
 });
+
+routes.post("/api/usuarios", users.store);
+routes.patch("/api/usuarios:id", users.update);
 
 module.exports = { routes };
