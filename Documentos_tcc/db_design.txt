@@ -1,5 +1,5 @@
 Table Usuarios {
-  usu_id int [pk]
+  id int [pk]
   usu_nome varchar [not null]
   usu_email varchar [not null, unique]
   usu_senha varchar [not null]
@@ -12,7 +12,7 @@ Table Usuarios {
 }
 
 Table Materias {
-  mat_id int [pk]
+  id int [pk]
   mat_materia varchar
   mat_cor varchar
   created_at datetime
@@ -21,7 +21,7 @@ Table Materias {
 }
 
 Table Postagens {
-  pos_id int [pk]
+  id int [pk]
   pos_texto varchar
   pos_imagem varchar
   pos_curtidas int
@@ -33,6 +33,6 @@ Table Postagens {
 
 
 }
- ref: Usuarios.usu_id < Postagens.pos_id
- ref: Postagens.pos_id - Materias.mat_id
+ ref: Usuarios.id < Postagens.id
+ ref: Postagens.id - Materias.id
 

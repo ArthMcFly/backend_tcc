@@ -1,7 +1,7 @@
 {
 	"usuarios":[
 	{
-		"usu_id":1,
+		"id":1,
 		"usu_nome":"Min Crossfield",
 		"usu_email":"mcrossfield0@unblog.fr",
 		"usu_senha": "ZB0tDQkrtu6",
@@ -13,7 +13,7 @@
 		"updated_at":"2022-05-27T07:58:10Z"
 	},
 	{
-		"usu_id":2,
+		"id":2,
 		"usu_nome":"Richard Bonhome",
 		"usu_email":"rbonhome1@spotify.com",
 		"usu_senha": "ORk0v62PPHW",
@@ -25,7 +25,7 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":3,
+		"id":3,
 		"usu_nome":"Reece Witsey",
 		"usu_email":"rwitsey2@live.com",
 		"usu_senha": "eSEPB62XG",
@@ -37,7 +37,7 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":4,
+		"id":4,
 		"usu_nome":"Rafe Core",
 		"usu_email":"rcore3@youtube.com",
 		"usu_senha": "HeIJvD",
@@ -49,7 +49,7 @@
 		"updated_at":"2023-01-29T07:50:34Z"
 	},
 	{
-		"usu_id":5,
+		"id":5,
 		"usu_nome":"Phil Kelcey",
 		"usu_email":"pkelcey4@csmonitor.com",
 		"usu_senha": "XB0hyH6Qvt",
@@ -61,10 +61,10 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":6,
+		"id":6,
 		"usu_nome":"Doria Vivash",
 		"usu_email":"dvivash5@berkeley.edu",
-		 "usu_senha": "jhqByRg",
+		"usu_senha": "jhqByRg",
 		"usu_arroba":"dvivash5",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
 		"usu_bio":"justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
@@ -73,7 +73,7 @@
 		"updated_at":"2023-02-09T15:49:24Z"
 	},
 	{
-		"usu_id":7,
+		"id":7,
 		"usu_nome":"Lynna Petyakov",
 		"usu_email":"lpetyakov6@ocn.ne.jp",
 		"usu_senha": "mNOzcLYcUxB",
@@ -85,7 +85,7 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":8,
+		"id":8,
 		"usu_nome":"Emogene Sturt",
 		"usu_email":"esturt7@networksolutions.com",
 		"usu_senha": "H7yez7xcjM",
@@ -97,7 +97,7 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":9,
+		"id":9,
 		"usu_nome":"Blair Maynard",
 		"usu_email":"bmaynard8@biglobe.ne.jp",
 		"usu_senha": "VCxDEqqr",
@@ -109,7 +109,7 @@
 		"updated_at":null
 	},
 	{
-		"usu_id":10,
+		"id":10,
 		"usu_nome":"Felice Smewing",
 		"usu_email":"fsmewing9@dagondesign.com",
 		"usu_senha": "AbftozqIex",
@@ -124,70 +124,70 @@
 
 	"materias":[
 	{
-		"mat_id":1,
+		"id":1,
 		"mat_materia":"Materia",
 		"mat_cor":"#44ebd1",
 		"created_at":"2022-10-20T00:27:41Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":2,
+		"id":2,
 		"mat_materia":"Materia",
 		"mat_cor":"#dbf5fe",
 		"created_at":"2023-03-03T09:04:08Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":3,
+		"id":3,
 		"mat_materia":"Materia",
 		"mat_cor":"#a707d5",
 		"created_at":"2022-03-27T17:55:11Z",
 		"updated_at":"2022-12-18T20:00:53Z"
 	},
 	{
-		"mat_id":4,
+		"id":4,
 		"mat_materia":"Materia",
 		"mat_cor":"#9565c6",
 		"created_at":"2023-02-04T06:40:23Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":5,
+		"id":5,
 		"mat_materia":"Materia",
 		"mat_cor":"#8cbd9b",
 		"created_at":"2022-11-04T16:25:00Z",
 		"updated_at":"2022-11-25T06:32:11Z"
 	},
 	{
-		"mat_id":6,
+		"id":6,
 		"mat_materia":"Materia",
 		"mat_cor":"#06c26d",
 		"created_at":"2022-09-13T03:49:49Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":7,
+		"id":7,
 		"mat_materia":"Materia",
 		"mat_cor":"#72b83d",
 		"created_at":"2022-06-18T23:22:33Z",
 		"updated_at":"2022-09-22T02:30:28Z"
 	},
 	{
-		"mat_id":8,
+		"id":8,
 		"mat_materia":"Materia",
 		"mat_cor":"#fda914",
 		"created_at":"2022-10-27T01:19:46Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":9,
+		"id":9,
 		"mat_materia":"Materia",
 		"mat_cor":"#ce25ad",
 		"created_at":"2023-02-09T02:46:36Z",
 		"updated_at":null
 	},
 	{
-		"mat_id":10,
+		"id":10,
 		"mat_materia":"Materia",
 		"mat_cor":"#4d7350",
 		"created_at":"2022-08-06T08:50:21Z",
@@ -196,7 +196,7 @@
 	],
 	"postagens":[
 	{
-		"pos_id":1,
+		"id":1,
 		"pos_texto":"texto",
 		"pos_curtidas":887,
 		"pos_imagem":"http://dummyimage.com/142x100.png/5fa2dd/ffffff",
@@ -207,7 +207,7 @@
 		"updated_at":"2022-09-10T00:49:45Z"
 	},
 	{
-		"pos_id":2,
+		"id":2,
 		"pos_texto":"texto",
 		"pos_curtidas":959,
 		"pos_imagem":"http://dummyimage.com/236x100.png/cc0000/ffffff",
@@ -218,7 +218,7 @@
 		"updated_at":null
 	},
 	{
-		"pos_id":3,
+		"id":3,
 		"pos_texto":"texto",
 		"pos_curtidas":731,
 		"pos_imagem":"http://dummyimage.com/138x100.png/cc0000/ffffff",
@@ -229,7 +229,7 @@
 		"updated_at":"2022-09-05T21:20:39Z"
 	},
 	{
-		"pos_id":4,
+		"id":4,
 		"pos_texto":"texto",
 		"pos_curtidas":958,
 		"pos_imagem":"http://dummyimage.com/176x100.png/dddddd/000000",
@@ -240,7 +240,7 @@
 		"updated_at":null
 	},
 	{
-		"pos_id":5,
+		"id":5,
 		"pos_texto":"texto",
 		"pos_curtidas":200,
 		"pos_imagem":"http://dummyimage.com/148x100.png/cc0000/ffffff",
@@ -251,7 +251,7 @@
 		"updated_at":null
 	},
 	{
-		"pos_id":6,
+		"id":6,
 		"pos_texto":"texto",
 		"pos_curtidas":351,
 		"pos_imagem":"http://dummyimage.com/232x100.png/cc0000/ffffff",
@@ -262,7 +262,7 @@
 		"updated_at":"2023-01-04T02:20:54Z"
 	},
 	{
-		"pos_id":7,
+		"id":7,
 		"pos_texto":"texto",
 		"pos_curtidas":530,
 		"pos_imagem":"http://dummyimage.com/183x100.png/ff4444/ffffff",
@@ -273,7 +273,7 @@
 		"updated_at":null
 	},
 	{
-		"pos_id":8,
+		"id":8,
 		"pos_texto":"texto",
 		"pos_curtidas":758,
 		"pos_imagem":"http://dummyimage.com/185x100.png/5fa2dd/ffffff",
@@ -284,7 +284,7 @@
 		"updated_at":null
 	},
 	{
-		"pos_id":9,
+		"id":9,
 		"pos_texto":"texto",
 		"pos_curtidas":963,
 		"pos_imagem":"http://dummyimage.com/193x100.png/dddddd/000000",
@@ -295,7 +295,7 @@
 		"updated_at":"2022-10-07T07:43:14Z"
 	},
 	{
-		"pos_id":10,
+		"id":10,
 		"pos_texto":"texto",
 		"pos_curtidas":976,
 		"pos_imagem":"http://dummyimage.com/158x100.png/cc0000/ffffff",
