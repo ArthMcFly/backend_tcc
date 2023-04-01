@@ -1,6 +1,8 @@
 const { Router } = require("express");
 var http = require("http");
-const users = require("../controllers/usuarios/index");
+const Users = require("../controllers/usuarios/index");
+const Subjects = require("../controllers/materias/index");
+const Posts = require("../controllers/postagens/index");
 const routes = new Router();
 
 
@@ -17,14 +19,14 @@ routes.get("/api/db", (req, res) => {
 	return res.status(404).end(http.STATUS_CODES[404]);
 });
 
-routes.post("/api/usuarios", users.store);
-routes.patch("/api/usuarios:id", users.update);
+routes.post("/api/usuarios", Users.store);
+routes.patch("/api/usuarios:id", Users.update);
 
-routes.post("/api/materias", users.store);
-routes.patch("/api/materias:id", users.update);
+routes.post("/api/materias", Subjects.store);
+routes.patch("/api/materias:id", Subjects.update);
 
-routes.post("/api/postagens", users.store);
-routes.patch("/api/postagens:id", users.update);
+routes.post("/api/postagens", Posts.store);
+routes.patch("/api/postagens:id", Posts.update);
 
 
 

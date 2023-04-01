@@ -2,8 +2,8 @@ class Subjects {
 	async store(req, res, next) {
 		req.body = {
 			...req.body,
-			mat_materia: "";
-			mat_cor: ""; 
+			mat_nome: "",
+			mat_cor: "",
 			created_at: new Date(),
 			updated_at: ""
 		};
