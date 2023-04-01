@@ -20,4 +20,12 @@ routes.get("/api/db", (req, res) => {
 routes.post("/api/usuarios", users.store);
 routes.patch("/api/usuarios:id", users.update);
 
+routes.post("/api/materias", users.store);
+routes.patch("/api/materias:id", users.update);
+
+routes.post("/api/postagens", users.store);
+routes.patch("/api/postagens:id", users.update);
+
+
+
 module.exports = { routes };

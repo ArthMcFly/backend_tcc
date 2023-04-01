@@ -7,6 +7,7 @@
 		"usu_senha": "ZB0tDQkrtu6",
 		"usu_arroba":"mcrossfield0",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#8f8598",
 		"usu_bio":"luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas",
 		"usu_nivel":"admin",
 		"created_at":"2022-04-18T16:36:23Z",
@@ -19,6 +20,7 @@
 		"usu_senha": "ORk0v62PPHW",
 		"usu_arroba":"rbonhome1",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#9ba467",
 		"usu_bio":"nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus",	
 		"usu_nivel":"professor",
 		"created_at":"2023-01-28T13:15:34Z",
@@ -31,6 +33,7 @@
 		"usu_senha": "eSEPB62XG",
 		"usu_arroba":"rwitsey2",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#cde1a5",
 		"usu_nivel":"aluno",
 		"usu_bio":"ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a",
 		"created_at":"2022-11-17T17:24:05Z",
@@ -43,6 +46,7 @@
 		"usu_senha": "HeIJvD",
 		"usu_arroba":"rcore3",	
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#34b567",
 		"usu_bio":"phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
 		"usu_nivel":"professor",
 		"created_at":"2022-09-19T07:44:10Z",
@@ -55,6 +59,7 @@
 		"usu_senha": "XB0hyH6Qvt",
 		"usu_arroba":"pkelcey4",	
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#a3789f",
 		"usu_bio":"ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
 		"usu_nivel":"admin",
 		"created_at":"2022-12-31T22:43:47Z",
@@ -67,6 +72,7 @@
 		"usu_senha": "jhqByRg",
 		"usu_arroba":"dvivash5",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#9e3bfc",
 		"usu_bio":"justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
 		"usu_nivel":"professor",
 		"created_at":"2022-12-30T08:45:17Z",
@@ -79,6 +85,7 @@
 		"usu_senha": "mNOzcLYcUxB",
 		"usu_arroba":"lpetyakov6",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		 "usu_corperfil": "#0b7ee6",
 		"usu_bio":"tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis",
 		"usu_nivel":"aluno",
 		"created_at":"2022-08-24T09:25:24Z",
@@ -91,6 +98,7 @@
 		"usu_senha": "H7yez7xcjM",
 		"usu_arroba":"esturt7",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#cd386f",
 		"usu_bio":"pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla",
 		"usu_nivel":"aluno",
 		"created_at":"2022-09-29T01:56:03Z",
@@ -103,6 +111,7 @@
 		"usu_senha": "VCxDEqqr",
 		"usu_arroba":"bmaynard8",
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#9d5c40",
 		"usu_bio":"vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam",
 		"usu_nivel":"professor",
 		"created_at":"2022-11-15T02:10:10Z",
@@ -115,6 +124,7 @@
 		"usu_senha": "AbftozqIex",
 		"usu_arroba":"fsmewing9",	
 		"usu_fotoperfil":"http://dummyimage.com/183x100.png/ff4444/ffffff",
+		"usu_corperfil": "#e32c79",
 		"usu_bio":"volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh",
 		"usu_nivel":"admin",
 		"created_at":"2022-08-31T21:34:34Z",
@@ -125,70 +135,70 @@
 	"materias":[
 	{
 		"id":1,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#44ebd1",
 		"created_at":"2022-10-20T00:27:41Z",
 		"updated_at":null
 	},
 	{
 		"id":2,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#dbf5fe",
 		"created_at":"2023-03-03T09:04:08Z",
 		"updated_at":null
 	},
 	{
 		"id":3,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#a707d5",
 		"created_at":"2022-03-27T17:55:11Z",
 		"updated_at":"2022-12-18T20:00:53Z"
 	},
 	{
 		"id":4,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#9565c6",
 		"created_at":"2023-02-04T06:40:23Z",
 		"updated_at":null
 	},
 	{
 		"id":5,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#8cbd9b",
 		"created_at":"2022-11-04T16:25:00Z",
 		"updated_at":"2022-11-25T06:32:11Z"
 	},
 	{
 		"id":6,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#06c26d",
 		"created_at":"2022-09-13T03:49:49Z",
 		"updated_at":null
 	},
 	{
 		"id":7,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#72b83d",
 		"created_at":"2022-06-18T23:22:33Z",
 		"updated_at":"2022-09-22T02:30:28Z"
 	},
 	{
 		"id":8,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#fda914",
 		"created_at":"2022-10-27T01:19:46Z",
 		"updated_at":null
 	},
 	{
 		"id":9,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#ce25ad",
 		"created_at":"2023-02-09T02:46:36Z",
 		"updated_at":null
 	},
 	{
 		"id":10,
-		"mat_materia":"Materia",
+		"mat_nome":"Materia",
 		"mat_cor":"#4d7350",
 		"created_at":"2022-08-06T08:50:21Z",
 		"updated_at":null

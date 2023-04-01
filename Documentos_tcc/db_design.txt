@@ -4,6 +4,7 @@ Table Usuarios {
   usu_email varchar [not null, unique]
   usu_senha varchar [not null]
   usu_fotoperfil varchar
+  usu_corperfil varchar 
   usu_nivel varchar
   usu_arroba varchar [not null, unique]
   usu_bio varchar
@@ -13,7 +14,7 @@ Table Usuarios {
 
 Table Materias {
   id int [pk]
-  mat_materia varchar
+  mat_nome varchar
   mat_cor varchar
   created_at datetime
   updated_at datetime
