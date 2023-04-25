@@ -20,13 +20,13 @@ routes.get("/api/db", (req, res) => {
 });
 
 routes.post("/api/usuarios", Users.store);
-routes.patch("/api/usuarios:id", Users.update);
+routes.patch("/api/usuarios/:id", Users.update);
 
 routes.post("/api/materias", Subjects.store);
-routes.patch("/api/materias:id", Subjects.update);
+routes.patch("/api/materias/:id", Subjects.update);
 
 routes.post("/api/postagens", Posts.store);
-routes.patch("/api/postagens:id", Posts.update);
+routes.patch("/api/postagens/:id", Posts.update);
 
 
 
