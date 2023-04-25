@@ -12,5 +12,5 @@ app.use("/api", api );
 
 app.listen(port, () => {
 	console.clear();
-	console.log('listening on port:8080');
+	console.log(`listening on port: ${port}`)
 });
