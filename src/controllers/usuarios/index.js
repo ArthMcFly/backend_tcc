@@ -4,7 +4,6 @@ class Users {
 		!req.body?.usu_bio && (req.body = {...req.body, usu_bio:""});
 		req.body = {
 			...req.body,
-			usu_fotoperfil: "",
 			created_at: new Date(),
 			updated_at: ""
 		};
