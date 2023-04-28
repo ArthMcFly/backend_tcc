@@ -66,5 +66,5 @@ class Users {
 		next();
 	}
 }
-
+//Exportação de módulos
 module.exports = new Users();
