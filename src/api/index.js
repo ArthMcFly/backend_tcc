@@ -1,3 +1,4 @@
+//Declaração de variáveis
 const {create, defaults, router} = require("json-server");
 const path = require("path");
 
@@ -8,7 +9,9 @@ const apiEndpoints = router(
 
 const middleware = defaults();
 
+//Adiçãod de Middleware
 server.use(middleware)
 server.use(apiEndpoints)
 
+//Exportação de módulos
 module.exports = { server, apiEndpoints };

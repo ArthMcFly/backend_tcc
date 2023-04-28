@@ -1,6 +1,9 @@
+//Declaração de variáveis
 const { object, string, mixed } = require("yup");
+
 class Subjects {
 	async store(req, res, next) {
+		//Schema de validação da entidade 
 		let subjectSchema = object({
 			mat_nome: 
 				string()
@@ -9,11 +12,13 @@ class Subjects {
 				string()
 				.required("Cor não inserida"),
 		});
+		//Preenchimento automático do atributo de criação 
 		req.body = {
 			...req.body,
 			created_at: new Date(),
 			updated_at: ""
 		};
+		//Validação da entidade 
 		try{
 			await subjectSchema.validate(req.body);
 		} 
@@ -22,6 +27,7 @@ class Subjects {
 		}
 		next();
 	}
+		//Preenchimento automático do atributo de criação
 		async update(req, res, next) {
 		req.body = {
 			...req.body,
@@ -30,5 +36,5 @@ class Subjects {
 		next();
 	}
 }
-
+//Exportação de módulos
 module.exports = new Subjects();
