@@ -1,6 +1,10 @@
+//Declaração de variáveis
 const { object, string, mixed } = require("yup");
+const { apiEndpoints } = require("../../api/index")
+
 class Users {
 	async store(req, res, next) {
+		//Schema de validação da entidade
 		let userSchema = object({
 			usu_nome: 
 				string()
@@ -26,25 +30,36 @@ class Users {
 				string()
 				.required("Arroba não inserido"),
 		});
-
+		
+		//Preenchimento automático de atributos vazios
 		!req.body?.usu_nivel && (req.body = {...req.body, usu_nivel:"aluno"});
 		!req.body?.usu_bio && (req.body = {...req.body, usu_bio:""});
 		req.body = {
+			//Preenchimento do atributo de criação
 			...req.body,
 			created_at: new Date(),
 			updated_at: ""
 		};
+		//Validação da entidade
 		try{
 			await userSchema.validate(req.body);
 		} 
 		catch (error){
-			return res.status(400).end(error.message);
+			return res.status(400).end({ error: error.message });
 		}
-
+		
+		let userFinded = apiEndpoints.db
+			.get("usuarios")
+			.find({ usu_arroba: req.body.usu_arroba })
+			.value();
+		if (userFinded) {
+			return res.status(400).json({ error: "Usuário já cadastrado" });
+		}
 		next();
 	}
 	async update(req, res, next) {
 		req.body = {
+			//Preenchimento do atributo de atualização
 			...req.body,
 			updated_at: new Date()
 		};
