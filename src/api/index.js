@@ -9,7 +9,7 @@ const apiEndpoints = router(
 
 const middleware = defaults();
 
-//Adiçãod de Middleware
+//Adição de Middleware
 server.use(middleware)
 server.use(apiEndpoints)
 
