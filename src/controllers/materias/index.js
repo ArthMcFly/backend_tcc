@@ -23,7 +23,7 @@ class Subjects {
 			await subjectSchema.validate(req.body);
 		} 
 		catch (error){
-			return res.status(400).end(error.message);
+			return res.status(400).json({ error: error.message });
 		}
 		next();
 	}
