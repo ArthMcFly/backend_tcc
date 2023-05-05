@@ -23,10 +23,7 @@
  footer, header, hgroup, menu, nav, section {
     display: block;
  }
- body {
-    line-height: 1;
- }
- ol, ul {
+ol, ul {
     list-style: none;
  }
  blockquote, q {
@@ -45,11 +42,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color:black;
+  line-height: 1;
+
 }
 
 a {
   color: inherit;
   text-decoration: inherit;
+  font-size: 20px;
 }
 
 .header {
@@ -61,4 +61,8 @@ p{
 	font-size: 20px;
 	width: 50%;
 	padding: 10px;
+}
+
+.title{
+	font-size:20px
 }
