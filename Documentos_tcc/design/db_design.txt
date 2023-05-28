@@ -26,7 +26,7 @@ Table Postagens {
   pos_texto varchar
   pos_imagem varchar
   pos_curtidas int
-  pos_resposta int
+  pos_respostaid int
   pos_textoresposta varchar
   pos_curtidasresposta int 
   created_at datetime
