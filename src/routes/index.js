@@ -8,7 +8,7 @@ const routes = new Router();
 
 //Rota raiz
 routes.get('/', (req, res) => {
-  res.send('Servidor backend')
+	res.send('Servidor backend')
 });
 
 //Rota da api
@@ -32,6 +32,9 @@ routes.patch("/api/materias/:id", Subjects.update);
 //Rota da entidade de postagens 
 routes.post("/api/postagens", Posts.store);
 routes.patch("/api/postagens/:id", Posts.update);
+
+
+
 
 //Exportação de módulos
 module.exports = { routes };
