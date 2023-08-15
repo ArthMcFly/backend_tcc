@@ -1,10 +1,13 @@
 //Validação de variáveis
 const { Router } = require("express");
 var http = require("http");
+const { storage, uploadFolder } = require("../config/upload");
+const multer = require("multer");
 const Users = require("../controllers/usuarios/index");
 const Subjects = require("../controllers/materias/index");
 const Posts = require("../controllers/postagens/index");
 const routes = new Router();
+const upload = multer({ storage });
 
 //Rota raiz
 routes.get('/', (req, res) => {
@@ -24,6 +27,10 @@ routes.get("/api/db", (req, res) => {
 //Rota da entidade de usuários
 routes.post("/api/usuarios", Users.store);
 routes.patch("/api/usuarios/:id", Users.update);
+routes.post("/auth", Users.auth);
+routes.post("/signup", Users.signup);
+routes.get("/activate/:chave", Users.activate);
+routes.patch("/api/avatar/:id", upload.single("avatar"), Users.uploadPhoto);
 
 //Rota da entidade de materias 
 routes.post("/api/materias", Subjects.store);
