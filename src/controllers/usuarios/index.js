@@ -15,7 +15,7 @@ const criarChave = (n, r = "") => {
   return r;
 };
 
-class Usuarios {
+class Users {
   async signup(req, res, next) {
     console.log(`   ${Date.now()}`);
     next();
@@ -37,7 +37,6 @@ class Usuarios {
     });
 
     !req.body?.usu_nivel && (req.body = { ...req.body, usu_nivel: "aluno" });
-    !req.body?.usu_celular && (req.body = { ...req.body, usu_celular: "" });
 
     const usu_chave = criarChave(10);
     const { usu_nome, usu_email } = req.body;
@@ -106,7 +105,7 @@ class Usuarios {
       .value();
 
     if (!usuario) {
-      return res.status(400).send({ error: "key not finded" }).end();
+      return res.status(400).send({ error: "Chave não encontrada" }).end();
     }
 
     usuario.usu_chave = "";
@@ -114,7 +113,7 @@ class Usuarios {
     usuario.usu_emailconfirmado = true;
     apiEndpoints.db.write();
 
-    return res.status(200).send({ response: "User activated" }).end();
+    return res.status(200).send({ response: "Usuario ativado" }).end();
   }
 
   async uploadPhoto(req, res, next) {
@@ -202,4 +201,4 @@ class Usuarios {
   }
 }
 
-module.exports = new Usuarios();
+module.exports = new Users();
