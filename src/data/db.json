@@ -147,71 +147,92 @@
   "materias": [
     {
       "id": 1,
-      "mat_nome": "Materia",
-      "mat_cor": "#44ebd1",
+      "mat_nome": "Geografia",
+      "mat_cor": "#FF6100",
       "created_at": "2022-10-20T00:27:41Z",
       "updated_at": null
     },
     {
       "id": 2,
-      "mat_nome": "Materia",
-      "mat_cor": "#dbf5fe",
+      "mat_nome": "Biologia",
+      "mat_cor": "#00BF63",
       "created_at": "2023-03-03T09:04:08Z",
       "updated_at": null
     },
     {
       "id": 3,
-      "mat_nome": "Materia",
-      "mat_cor": "#a707d5",
+      "mat_nome": "Português",
+      "mat_cor": "#00A1FF",
       "created_at": "2022-03-27T17:55:11Z",
       "updated_at": "2022-12-18T20:00:53Z"
     },
     {
       "id": 4,
-      "mat_nome": "Materia",
-      "mat_cor": "#9565c6",
+      "mat_nome": "Artes",
+      "mat_cor": "#FF66C4",
       "created_at": "2023-02-04T06:40:23Z",
       "updated_at": null
     },
     {
       "id": 5,
-      "mat_nome": "Materia",
-      "mat_cor": "#8cbd9b",
+      "mat_nome": "Química",
+      "mat_cor": "#4DD1B5",
       "created_at": "2022-11-04T16:25:00Z",
       "updated_at": "2022-11-25T06:32:11Z"
     },
     {
       "id": 6,
-      "mat_nome": "Materia",
-      "mat_cor": "#06c26d",
+      "mat_nome": "Matemática",
+      "mat_cor": "#FF3131",
       "created_at": "2022-09-13T03:49:49Z",
       "updated_at": null
     },
     {
       "id": 7,
-      "mat_nome": "Materia",
-      "mat_cor": "#72b83d",
+      "mat_nome": "Ed. Fís.",
+      "mat_cor": "#8C52FF",
       "created_at": "2022-06-18T23:22:33Z",
       "updated_at": "2022-09-22T02:30:28Z"
     },
     {
       "id": 8,
-      "mat_nome": "Materia",
-      "mat_cor": "#fda914",
+      "mat_nome": "História",
+      "mat_cor": "#d47749",
       "created_at": "2022-10-27T01:19:46Z",
       "updated_at": null
     },
     {
       "id": 9,
-      "mat_nome": "Materia",
-      "mat_cor": "#ce25ad",
+      "mat_nome": "L.E",
+      "mat_cor": "#f6c400",
       "created_at": "2023-02-09T02:46:36Z",
       "updated_at": null
     },
     {
       "id": 10,
-      "mat_nome": "Materia",
-      "mat_cor": "#4d7350",
+      "mat_nome": "Física",
+      "mat_cor": "#d38ffd",
+      "created_at": "2022-08-06T08:50:21Z",
+      "updated_at": null
+    },
+    {
+      "id": 11,
+      "mat_nome": "Filosofia",
+      "mat_cor": "#e7b775",
+      "created_at": "2022-08-06T08:50:21Z",
+      "updated_at": null
+    },
+    {
+      "id": 12,
+      "mat_nome": "Sociologia",
+      "mat_cor": "#eccea4",
+      "created_at": "2022-08-06T08:50:21Z",
+      "updated_at": null
+    },
+    {
+      "id": 12,
+      "mat_nome": "Outros",
+      "mat_cor": "#818181",
       "created_at": "2022-08-06T08:50:21Z",
       "updated_at": null
     }
