@@ -6,6 +6,8 @@ class Posts {
 		let postSchema = object({
 			pos_titulo: string()
 				.required("Título não inserido"),
+			usuario_id: string()
+				.required("Autor não inserido"),
 			pos_texto: string()
 				.required("Texto não inserido"),
 			materia_id: string()
