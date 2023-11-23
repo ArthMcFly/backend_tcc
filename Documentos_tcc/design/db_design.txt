@@ -5,6 +5,9 @@ Table Usuarios {
   usu_senha varchar [not null]
   usu_fotoperfil varchar
   usu_corperfil varchar 
+  usu_emailcomfirmado boolean
+  usu_chave varchar 
+  usu_cadastroativo boolean
   usu_nivel varchar
   usu_arroba varchar [not null, unique]
   usu_bio varchar
@@ -34,6 +37,6 @@ Table Postagens {
 
 
 }
- ref: usuarios.id < postagens.id
- ref: postagens.id - materias.id
+ ref: Usuarios.id < Postagens.id
+ ref: Postagens.id - Materias.id
 

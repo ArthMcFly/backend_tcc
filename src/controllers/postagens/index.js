@@ -4,9 +4,14 @@ class Posts {
 	async store(req, res, next) {
 		//Schema de validação da entidade
 		let postSchema = object({
-			pos_texto:
-				string()
+			pos_titulo: string()
+				.required("Título não inserido"),
+			usuario_id: string()
+				.required("Autor não inserido"),
+			pos_texto: string()
 				.required("Texto não inserido"),
+			materia_id: string()
+				.required("Materia não inserida"),
 		});
 		//Preenchimento de atributos vazios
 		!req.body?.pos_curtidas && (req.body = {...req.body, pos_curtidas:"0"});
