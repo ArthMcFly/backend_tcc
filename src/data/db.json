@@ -240,9 +240,9 @@
   "postagens": [
     {
       "id": 1,
-      "pos_titulo": "Título",
+      "pos_titulo": "Geografia Aplicada: Ações Antrópicas",
       "pos_subtitulo":"Subtítulo",
-      "pos_texto": "texto",
+      "pos_texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non turpis eu nibh efficitur rhoncus. Vivamus in aliquet leo, sed ultricies dui. Fusce sed neque vitae nibh cursus pulvinar. Nunc congue condimentum sem, suscipit varius ex varius a. Etiam fringilla porta lectus id ornare.",
       "pos_curtidas": 887,
       "pos_imagem": "http://dummyimage.com/142x100.png/5fa2dd/ffffff",
       "pos_respostaid": 1,
